@@ -1,0 +1,105 @@
+/*------ User.js file css --------*/
+.user-main-data {
+    margin-top: 50px;
+}
+
+.user-data {
+    width: 100%;
+    height: 350px;
+    background-color: #fafafa;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 30px;
+    overflow-y: scroll;
+}
+
+table {
+    width: 100%;
+    color: #000;
+    border: 0.6px solid #ccc;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table, th, td{
+    padding: 10px;
+    border: 0.6px solid #85929f;
+}
+
+.user-data-update {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-bottom: 0.6px solid #85929f;
+}
+
+th{
+    color: #202020;
+}
+
+.edit {
+    border: none;
+    color: blue;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 5px 8px;
+}
+
+.delete {
+    border: none;
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 5px 8px;
+}
+
+.model-overlay{
+    width: 500px;
+    position: fixed;
+    bottom: 0%;
+    left: 60%;
+    transform: translate(-50%, -25%);
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+    animation: popup 1s ;
+}
+
+@keyframes popup {
+    from{
+        bottom: -100%;
+    }
+    to{
+       bottom: 0;
+    }
+}
+
+.input-groop {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 10px 0;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input-groop label {
+    font-weight: 550;
+}
+
+.input-groop input , select{
+    width: 180px;
+    border: 1px solid #009698;
+    border-radius: 2px;
+    padding: 5px;
+}
+

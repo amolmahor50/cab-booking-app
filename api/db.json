@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "Amol",
+      "lastName": "Mahor",
+      "email": "amolmahor50@gmail.com",
+      "address": "dange chowk",
+      "contact": 9673170912,
+      "status": "active",
+      "role": "admin"
+    },
+    {
+      "id": "8d7b",
+      "FirstName": "sanket",
+      "LastName": "pande",
+      "Email": "adhhh@gsmdki.com",
+      "Address": "pune",
+      "Contact": "6633",
+      "Status": "Inactive",
+      "Role": "admin"
+    },
+    {
+      "id": "c4ea"
+    }
+  ]
+}

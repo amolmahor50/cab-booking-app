@@ -1,0 +1,104 @@
+/* Header */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 40px;
+    background-color: #0072E5;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.navbar .logo {
+    font-size: 35px;
+    color: #19344b;
+}
+
+.navbar h2 {
+    letter-spacing: 0.2px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.own-user {
+    color: #fff;
+    padding: 15px;
+    background-color: #6AB187;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.user p {
+    color: #fff;
+    font-size: 15px;
+}
+
+.account-popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    position: fixed;
+    top: 75px;
+    right: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    scale: 1;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    animation: slide-in .5s;
+}
+
+@keyframes slide-in {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+.username-wrapper h4 {
+    font-weight: 550;
+    font-size: 20px;
+    color: #4d4d4d;
+}
+
+.username-wrapper p {
+    font-size: 15px;
+    color: #ccc;
+}
+
+.profile-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    margin: 8px 0;
+    padding: 5px 0;
+    cursor: pointer;
+    color: #4d4d4d;
+    border-top: 1px solid #333;
+}
+
+.profile-wrapper h5{
+    font-weight: 500;
+    font-size: 15px;
+}

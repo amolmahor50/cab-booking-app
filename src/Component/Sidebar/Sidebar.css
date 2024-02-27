@@ -1,0 +1,25 @@
+
+.overlap {
+    display: flex;
+    gap: 10px;
+    margin: 30px;
+    border-bottom: 1px solid #fff;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.overlap .link{
+    color: #4d4d4d;
+    padding: 5px 10px;
+    font-weight: 450;
+    border-radius: 5px;
+}
+
+.link:hover {
+    background-color:#B3C100;
+}
+
+.link.active {
+    background-color:  #0091D5;
+    color: #fff;
+}
